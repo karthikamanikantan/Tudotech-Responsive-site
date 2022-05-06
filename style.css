@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.header{
+    background-image: linear-gradient(to left, #023384, #001435);
+	height:550;
+}
+.nav-item{
+    margin-left: 35px;
+    margin-bottom: 10px;
+	
+}
+.nav-link{
+    color: white;
+	font-family:Roboto;
+	font-size:13px;
+	font-style:regular;
+}
+.navbar-brand img{
+    width: 102px;
+}
+.active{
+	background-color:#14BBEA;
+	border-radius:5px;
+	padding:10px 20px;
+}
+.banner{
+	margin-top:80px;
+}
+.banner h3{
+	font-family:Raleway;
+	color:#14BBEA;
+	font-size:20px;
+}
+.banner p{
+	font-family:Raleway;
+	color:white;
+	font-size:40px;
+	line-height:28px;
+	margin-top:20px;
+	font-weight:700;
+}
+#about{
+	padding: 75px 0;
+	background-color:#001435;
+}
+#service{
+	padding: 75px 0;
+	background-color:#001435;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-family:Raleway;
+	font-size:12px;
+	color:white;
+}
+.subtitle{
+    text-align: center;
+    font-family:Raleway;
+	color:white;
+	font-size:20px;
+	
+}
+.para{
+	color:white;
+	text-align:center;
+	font-family:Raleway;
+	font-size:12px;
+}
+.about-box{
+    padding: 0 35px;
+    cursor: pointer;
+    text-align:center;
+	background-color:white;
+	margin-top:20px;
+	height:350px;
+	border-radius:5px;
+}
+.about-box img{
+    width: 60px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+
+}
+.about-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+	font-family:Raleway;
+	font-size:16px;
+	color:black;
+}
+.about-box p{
+    font-size: 14px;
+	font-family:Raleway;
+	color:black;
+}
+.active-about{
+	background-color:black;
+	
+}
+.active-about p{
+	font-size: 14px;
+	font-family:Raleway;
+	color:white;
+}
+.active-about h6{
+	margin-bottom: 40px;
+    font-weight: bold;
+	font-family:Raleway;
+	font-size:16px;
+	color:white;
+}
+
+
+.title-service{
+	text-align: center;
+    font-weight: bold;
+    font-family:Raleway;
+	font-size:12px;
+	color:white;
+}
+.subtitle-service{
+    text-align: center;
+    font-family:Raleway;
+	color:white;
+	font-size:20px;
+	
+}
+.para-service{
+	color:white;
+	text-align:center;
+	font-family:Raleway;
+	font-size:12px;
+}
+.service-square{
+    padding: 0 35px;
+    cursor: pointer;
+    text-align:center;
+	margin-top:90px;
+	height:350px;
+}
+.service-square p{
+    font-size:25px;
+	font-weight:700;
+	color:white;
+	font-family:Raleway;
+}
+.square {
+
+	height:10px;
+	width:10px;
+	background:#E9E91B;
+	display:inline-block;
+	margin-left:5px;
+}
+.service-box{
+	padding: 0 25px;
+    cursor: pointer;
+	margin-top:50px;
+	height:300px;
+	border-radius:5px;
+	background-color:black;
+}
+
+.service-box p{
+	font-size: 12px;
+	font-family:Raleway;
+	color:white;
+}
+.service-box img{
+    width: 60px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+	
+
+}
+.service-box h6{
+
+    font-weight: bold;
+	font-family:Raleway;
+	font-size:16px;
+	color:white;
+}
+.service-box-1{
+	padding: 10 35px;
+    cursor: pointer;
+	margin-top:20px;
+	border-radius:5px;
+	background-color:black;
+}
+.service-box-1 p{
+	font-size: 12px;
+	font-family:Raleway;
+	color:white;
+}
+.service-box-1 h6{
+	
+    font-weight: bold;
+	font-family:Raleway;
+	font-size:16px;
+	color:white;
+	margin-top:10px;
+
+}
+.service-box-2{
+	padding: 20 35px;
+    cursor: pointer;
+	margin-top:20px;
+	border-radius:5px;
+	background-color:white;
+
+}
+.service-box-2 p{
+	font-size: 12px;
+	font-family:Raleway;
+	color:black;
+}
+.service-box-2 h6{
+	
+    font-weight: bold;
+	font-family:Raleway;
+	font-size:16px;
+	color:black;
+	margin-top:10px;
+
+}
+.finance{
+	padding: 75px 0;
+	background-color:#001435;
+}
+
+.finance-title{
+	font-size:25px;
+	font-weight:700;
+	color:white;
+	font-family:Raleway;
+}
+.finance-points {
+    margin-top:5%;
+}
+.finance-points p {
+	font-family:Raleway;
+	font-size:13px;
+    color: white;
+}
+.finance-img img{
+	height: 150px;
+	width: 150px;
+}
+i {
+	margin-left: 5px;
+	color: #E9E91B;
+	padding: 2%;
+}
+.capital{
+	padding: 75px 0;
+	background-color:#001435;
+}
+.capital-title{
+	font-size:25px;
+	font-weight:700;
+	color:white;
+	font-family:Raleway;
+}
+.capital-points {
+    margin-top:5%;
+}
+.capital-points p {
+	font-family:Raleway;
+	font-size:13px;
+    color: white;
+}
+.capital-img img{
+	height: 150px;
+	width: 150px;
+}
+.process{
+	padding: 75px 0;
+	background-color:#001435;
+}
+.process-title{
+    text-align: center;
+    font-weight: bold;
+    font-family:Raleway;
+	font-size:12px;
+	color:white;
+}
+.process-subtitle{
+    text-align: center;
+    font-family:Raleway;
+	color:white;
+	font-size:20px;
+	
+}
+.process-para{
+	color:white;
+	text-align:center;
+	font-family:Raleway;
+	font-size:12px;
+}
+.process-box{
+    padding: 0 35px;
+    cursor: pointer;
+	background-color:white;
+	margin-top:20px;
+	height:300px;
+	border-radius:5px;
+	position: relative;
+}
+
+.process-box h6{
+    
+    font-weight: 900;
+	font-family:Raleway;
+	font-size:25px;
+	color:black;
+	padding-top: 50px;
+}
+.process-box p{
+    font-size: 12px;
+	font-family:Raleway;
+	color:black;
+	padding-top: 20px;
+}
+.process-box-1{
+    padding: 0 35px;
+    cursor: pointer;
+	background-color:black;
+	margin-top:20px;
+	height:300px;
+	border-radius:5px;
+	position: relative;
+}
+
+.process-box-1 h6{
+    
+    font-weight: 900;
+	font-family:Raleway;
+	font-size:25px;
+	color:white;
+	padding-top: 50px;
+}
+.process-box-1 p{
+    font-size: 12px;
+	font-family:Raleway;
+	color:white;
+	padding-top: 20px;
+}
+#hexagon
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -25px;
+	right: -50px;
+}
+#hexagon-1
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -25px;
+	left: -50px;
+}
+#hexagon-2
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -25px;
+	right: -50px;
+}
+#hexagon-3
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -25px;
+	left: -50px;
+}
+.process-box-banner{
+	margin-top: 10px;
+}
+#program{
+	padding: 75px 0;
+	background-color:#001435;
+}
+.program-title{
+	text-align: center;
+    font-weight: bold;
+    font-family:Raleway;
+	font-size:12px;
+	color:white;
+}
+.program-subtitle{
+    text-align: center;
+    font-family:Raleway;
+	color:white;
+	font-size:20px;
+	
+}
+.program-box{
+    padding: 0 35px;
+    cursor: pointer;
+	background-color:black;
+	margin-top:20px;
+	height:300px;
+	border-radius:5px;
+}
+.program-box img{
+    width: 60px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+	
+
+}
+.program-box h6{
+    
+    font-weight: 700;
+	font-family:Raleway;
+	font-size:15px;
+	color:white;
+	padding-top: 50px;
+	
+}
+.program-box-1{
+    padding: 0 35px;
+    cursor: pointer;
+	background-color:white;
+	margin-top:160px;
+	height:150px;
+	border-radius:5px;
+	position: relative;
+}
+.program-box-1 img{
+    width: 60px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+	
+
+}
+.program-box-1 h6{
+    
+    font-weight: 800;
+	font-family:Raleway;
+	font-size:15px;
+	color:black;
+	padding-top: 50px;
+	position: absolute;
+	top: 70px;
+	
+}
+.program-box-3{
+	padding: 0 35px;
+    cursor: pointer;
+	background-color:white;
+	height:150px;
+	border-radius:5px;
+	position: relative;
+	margin-top: 50px;
+
+}
+.program-box-3 img{
+    width: 60px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+	
+
+}
+.program-box-3 h6{
+    
+    font-weight: 800;
+	font-family:Raleway;
+	font-size:15px;
+	color:black;
+	padding-top: 50px;
+	position: absolute;
+	top: 70px;
+	
+}
+#form-banner{
+	padding: 75px 0;
+	background-color:#001435;
+}
+.form-section{
+	background-color: #000024;
+	width: 100%;
+	margin: auto;
+	height: 400px;
+	padding: 45px;
+}
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid white;
+	border-radius: 5px;
+	outline: white;
+	background-color:black;
+	margin-bottom: 15px;
+}
+form textarea{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid white;
+	border-radius: 5px;
+	outline: white;
+	background-color:black;
+	margin-bottom: 15px;
+}
+button{
+	text-align: center;
+}
+input ::placeholder{
+	font-size: 12px;
+}
+.common-btn{
+    width: 100%;
+    display: flex;
+	background-color: #14BBEA ;
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	font-family: open-sans;
+	font-size: 15px;
+	
+	
+   
+}
+
+
+
+.form-section p , h3{
+	color: white;
+	font-family: raleway;
+	line-height: 25px;
+	
+}
+.form-section h6{
+	color: white;
+	font-family: raleway;
+	margin-top: 60px;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+	padding: 20px;
+
+}
+.footer p{
+	color: white;
+	font-family: roboto;
+	font-size: 15px;
+	
+}
+
+.logo{
+	height: 20px;
+	width: 20px;
+	margin-left: 10px;
+	background-color: white;
+	
+}
+@media only screen and (max-width: 700px){
+	.process-box-1{
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.sqone{
+		margin-top: -280px;
+	}
+	
+	.program-box{
+		margin-right: 30px;
+	}
+	.program-box-1{
+		margin-top: 30px;
+	}
+	.program-box-2{
+		margin-right: 30px;
+	}
+	.program-box-3{
+		margin-right: 30px;
+	}
+	.form-section{
+		height: 100vh;
+		width: 100%;
+
+
+	}
+	.form-section h6{
+		margin-top: -10px;
+	}
+	form{
+		margin-top: -10px;
+	}
+		
+
+}
